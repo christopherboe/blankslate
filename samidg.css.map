@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAC;EACG,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG",
+"sources": ["sass/main.scss"],
+"names": [],
+"file": "samidg.css"
+}
