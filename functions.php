@@ -46,6 +46,16 @@ register_sidebar( array (
 'before_title' => '<h3 class="widget-title">',
 'after_title' => '</h3>',
 ) );
+    
+register_sidebar( array(
+		'name'          => 'Language Menu bar',
+		'id'            => 'language_menu_bar',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2>',
+		'after_title'   => '</h2>',
+) );
+    
 }
 function samidg_custom_pings( $comment )
 {
@@ -65,3 +75,5 @@ return count( $comments_by_type['comment'] );
 return $count;
 }
 }
+
+

@@ -2,9 +2,27 @@
   margin: 0px;
   padding: 0px; }
 
-#wrapper {
+body {
+  background: #cccccc; }
+  body #wrapper {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0px auto; }
+
+nav {
   width: 100%;
-  max-width: 1170px;
-  margin: 0px auto; }
+  background: white;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 65px; }
+  nav #menu-container {
+    display: flex; }
+    nav #menu-container .menu ul {
+      margin: 30px 0px; }
+      nav #menu-container .menu ul li {
+        margin: 0px 15px;
+        display: inline; }
+    nav #menu-container #search {
+      margin: 30px; }
 
 /*# sourceMappingURL=samidg.css.map */
