@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,CAAC;EACG,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG",
-"sources": ["sass/main.scss"],
+"mappings": "AAAA,CAAC;EACG,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;;ACFhB,QAAQ;EACJ,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,QAAQ",
+"sources": ["sass/main.scss","sass/thebody.scss"],
 "names": [],
 "file": "samidg.css"
 }
