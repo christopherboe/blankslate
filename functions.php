@@ -50,7 +50,7 @@ register_sidebar( array (
 register_sidebar( array(
 		'name'          => 'Language Menu bar',
 		'id'            => 'language_menu_bar',
-		'before_widget' => '<div>',
+		'before_widget' => '<div class="language-menu">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<h2>',
 		'after_title'   => '</h2>',

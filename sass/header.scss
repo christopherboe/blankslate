@@ -1,22 +1,24 @@
-nav {
-    width: 100%;
-    background: white;
-    display: inline-flex;
-    justify-content: space-between;
-    margin-top: 65px;
-    #menu-container {
-        display: flex;
-        .menu {
-            ul {
-                margin: 30px 0px;
-                li {
-                    margin: 0px 15px;
-                    display: inline;
+header {
+    margin-top: 50px;
+    nav {
+        width: 100%;
+        background: white;
+        display: inline-flex;
+        justify-content: space-between;
+        #menu-container {
+            display: flex;
+            .menu {
+                ul {
+                    margin: 30px 0px;
+                    li {
+                        margin: 0px 15px;
+                        display: inline;
+                    }
                 }
             }
-        }
-        #search {
-            margin: 30px;
+            #search {
+                margin: 30px;
+            }
         }
     }
 }
