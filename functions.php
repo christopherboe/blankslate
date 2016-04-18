@@ -39,21 +39,21 @@ add_action( 'widgets_init', 'samidg_widgets_init' );
 function samidg_widgets_init()
 {
 register_sidebar( array (
-'name' => __( 'Sidebar Widget Area', 'samidg' ),
-'id' => 'primary-widget-area',
-'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
-'after_widget' => "</li>",
-'before_title' => '<h3 class="widget-title">',
-'after_title' => '</h3>',
+        'name' => __( 'Sidebar Widget Area', 'samidg' ),
+        'id' => 'primary-widget-area',
+        'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
+        'after_widget' => "</li>",
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
 ) );
     
-register_sidebar( array(
+register_sidebar( array (
 		'name'          => 'Language Menu bar',
 		'id'            => 'language_menu_bar',
 		'before_widget' => '<div class="language-menu">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h2>',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
 ) );
     
 }
